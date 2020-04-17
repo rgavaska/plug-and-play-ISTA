@@ -3,6 +3,10 @@ function [g,winsize] = initInpainting(f,mask,initWinsize)
 % Nan-exclusive median filtering (repeatedly if required).
 % f = Input image with some pixels missing
 % mask = Logical mask indicating missing pixels
+% initWinsize = Initial filtering window length
+% g = Output image
+% winsize = Final filtering window length
+%
 
 if(~exist('initWinsize','var'))
     initWinsize = 1;
