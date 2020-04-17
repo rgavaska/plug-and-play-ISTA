@@ -8,6 +8,9 @@ function [x_curr,converged,iters,e,P] = ...
 % I = Ground-truth image to compare PSNR (optional), can be empty ([])
 % tol = Tolerance (optional)
 % maxiters = Max. no. of iterations (optional)
+% x_curr = Output signal/image
+% converged = Boolean flag indicating if algorithm converged
+% iters = No. of iterations completed
 % e = Iteration-wise errors
 % P = Iteration-wise PSNRs
 %
