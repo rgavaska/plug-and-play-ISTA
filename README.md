@@ -10,7 +10,7 @@ R. G. Gavaskar and K. N. Chaudhury, "Plug-and-play ISTA converges with kernel de
 
 The code here was used to produce the results reported in the paper.
 
-### Demo
+### Usage
 Run the file 'demo_inpainting.m' to run a demo of image inpainting using PnP-ISTA.
 
 The main PnP-ISTA algorithm is implemented in 'pnpISTA.m'.
