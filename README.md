@@ -18,6 +18,6 @@ The main PnP-ISTA algorithm is implemented in 'pnpISTA.m'.
 Tested on Matlab 9.6.0 (R2019a).
 
 ### Credits
-The code 'utils/nanmedfilt2.m' has been downloaded from: [https://www.mathworks.com/matlabcentral/fileexchange/41457-nanmedfilt2].
+The code 'utils/nanmedfilt2.m' has been downloaded from: https://www.mathworks.com/matlabcentral/fileexchange/41457-nanmedfilt2.
 
 
